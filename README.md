@@ -4,9 +4,9 @@ Airbnb Project
 # Download the sample
 
 # Run the sample
-In a terminal window, use the commands below (as appropriate for your operating system) to install the required dependencies and launch the built-in development server.
+In a terminal window, navigate to the sample and use the commands below (as appropriate for your operating system) to install the required dependencies and launch the built-in development server.
 
-Bash:
+# Bash:
 
 python3 -m venv venv
 
@@ -19,7 +19,7 @@ export FLASK_APP=app.py
 flask run
 
 
-Powershell:
+# Powershell:
 
 py -3 -m venv env
 
@@ -32,7 +32,7 @@ Set-Item Env:FLASK_APP ".\app.py"
 flask run
 
 
-cmd:
+# cmd:
 
 py -3 -m venv env
 
