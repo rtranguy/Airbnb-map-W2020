@@ -9,9 +9,13 @@ In a terminal window, use the commands below (as appropriate for your operating 
 Bash:
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
+
 export FLASK_APP=app.py
+
 flask run
 
 
