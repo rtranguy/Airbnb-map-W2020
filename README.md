@@ -22,21 +22,29 @@ flask run
 Powershell:
 
 py -3 -m venv env
+
 env\scripts\activate
+
 pip install -r requirements.txt
+
 Set-Item Env:FLASK_APP ".\app.py"
+
 flask run
 
 
 cmd:
 
 py -3 -m venv env
+
 env\scripts\activate
+
 pip install -r requirements.txt
+
 SET FLASK_APP=app.py
+
 flask run
 
 
 
 
-Open a web browser, and go to the sample app at http://localhost:5000/. The app displays the web app.
+# Open a web browser, and go to the sample app at http://localhost:5000/. The app displays the web app.
